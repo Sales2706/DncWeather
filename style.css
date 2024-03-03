@@ -21,7 +21,6 @@ body{
     margin-left: 65px;
     font-size: 20px;
     font-weight: 400;
-
 }
 
 .form-control{
@@ -29,7 +28,7 @@ body{
     height: 45px;
     background-color: #F2F2F2;
     border: none;
-    margin-left: 65px;
+    margin-right: 65px;
     color: #BABABA;
 }
 
@@ -43,8 +42,13 @@ body{
     padding: .375rem .75rem;
 }
 
+#lineUp{
+    display: flex;  
+}
+
 #lat{
     margin-left: 65px;
+    margin-right: 30px;
 }
 
 .btn{
@@ -65,6 +69,15 @@ body{
     height: 62px;
     border-radius:0px 0px 30px 30px;
     margin-bottom: 150px;
+}
+
+.lowAddresses input{
+    width: 260px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+    padding-left: 45px;
+    border: none;
+    font-weight: bolder;
 }
 
 .weather{
